@@ -1,0 +1,111 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Navbar Styling */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Button Group Styling */
+.btn-group .btn {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.btn-secondary:hover{
+    color: #f8f9fa;
+    background-color: #343a40;
+}
+/* Card Styling */
+.card-title {
+    font-weight: bold;
+}
+.card-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.card-original-price {
+    text-decoration: line-through;
+    color: gray;
+}
+.favorite-icon, .arrow-icon {
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.5rem;
+    position: absolute;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    max-height: 180px;
+}
+.favorite-icon {
+    right: 10px;
+}
+.arrow-icon {
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Form Styling */
+.form-section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 5px;
+}
+.form-section h5 {
+    color: #ff9900;
+    margin-bottom: 15px;
+}
+.form-section .form-group label {
+    font-weight: bold;
+}
+.form-control {
+    border-radius: 0;
+}
+.btn-primary {
+    background-color: #ff9900;
+    border-color: #ff9900;
+}
+.btn-primary:hover {
+    background-color: #e68a00;
+    border-color: #e68a00;
+}
+.terms {
+    font-size: 0.9em;
+    color: #888;
+}
+
+/* List Group Styling */
+.list-group-item {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Table Styling */
+.table th, .table td {
+    vertical-align: middle;
+}
+
+/* Dropdown Styling */
+.dropdown-menu {
+    min-width: 200px;
+}
